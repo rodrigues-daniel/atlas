@@ -2,13 +2,19 @@ doctype html
 
 html
 	head
-		title="formulario"
+		title="Novo Atendimento"
 	body
 
 form(action="/",method="POST")
 	div
 		input(name="nome" value="informe seu nome")  
 		br
-		input(name="idade" value="informe sua idade") 
+		input(name="latitude" value="0.0") 
 		br
-		button(type="submit") Salvar
+		br
+		input(name="longitude" value="0.0") 
+		br
+		br
+		input(name="indice" value="1") 
+		br
+		button(type="submit") Gravar
